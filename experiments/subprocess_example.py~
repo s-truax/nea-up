@@ -1,0 +1,5 @@
+import subprocess
+
+files = subprocess.run("dir")
+
+print(files.stdout)
